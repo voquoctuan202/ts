@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký</title>
+
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section class="vh-100">
+      <div class="container py-4 h-100">
+        <div class="row d-flex align-items-center justify-content-center h-100">
+          <div class="col-lg-7 d-lg-block d-none col-xl-6">
+            <img
+              src="https://shoutem.com/wp-content/uploads/2020/12/Social-Network.png"
+              class="img-fluid"
+              alt="Phone image"
+            />
+          </div>
+          <div class="col-md-12 col-lg-5 col-xl-5">
+            <h1 class="text-center gradient-text mb-2">Sign Up</h1>
+            <form>
+              <div class="form-outline mb-2">
+                <label class="form-label fw-semibold fs-5" for="fullname"
+                  >Fullname</label
+                >
+                <input
+                  type="text"
+                  id="fullname"
+                  class="form-control"
+                  placeholder="Fullname"
+                />
+              </div>
+              <div class="form-outline mb-2">
+                <label class="form-label fw-semibold fs-5" for="username"
+                  >Username</label
+                >
+                <input
+                  type="text"
+                  id="username"
+                  class="form-control"
+                  placeholder="Username"
+                />
+              </div>
+              <div class="form-outline mb-2">
+                <label class="form-label fw-semibold fs-5" for="email"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Email"
+                />
+              </div>
+
+              <div class="form-outline mb-2">
+                <label class="form-label fw-semibold fs-5" for="password"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  id="password"
+                  class="form-control"
+                  placeholder="Password"
+                />
+              </div>
+
+              <div class="d-flex justify-content-between mb-4">
+                <div class="d-flex justify-content-center">
+                  <!-- Checkbox -->
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="remember"
+                      checked
+                    />
+                    <label class="form-check-label" for="remember">
+                      Remember me
+                    </label>
+                  </div>
+                </div>
+
+                <div class="">
+                  <!-- Simple link -->
+                  <!-- <a href="#">Forgot password?</a> -->
+                </div>
+              </div>
+
+              <!-- Submit button -->
+              <button
+                type="submit"
+                class="btn btn-primary w-100 btn-block mb-3"
+                style="
+                  background-image: linear-gradient(
+                    to right,
+                    var(--secondary-color),
+                    var(--primary-color)
+                  );
+                "
+              >
+                Sign Up
+              </button>
+            </form>
+            <div class="text-center">
+              <p>Have an account? <a href="./login.html">Login</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- js -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
